@@ -1,0 +1,33 @@
+#########################
+# X11 libs dependencies #
+#########################
+
+# <X11/Xlib.h>
+libx11-dev
+
+# <X11/Xcursor/Xcursor.h>
+libxcursor-dev
+
+# <X11/extensions/Xrandr.h>
+libxrandr-dev
+
+# <X11/extensions/Xinerama.h>
+libxinerama-dev
+
+# <X11/extensions/XInput2.h>
+libxi-dev
+
+
+############################
+# OpenGL libs dependencies #
+############################
+cannot find -lGLU
+solution: sudo apt install libglu1-mesa-dev
+
+problem: cannot find -lGL
+solution: sudo apt install libgl-dev
+
+
+
+
+
